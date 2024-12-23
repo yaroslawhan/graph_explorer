@@ -1,0 +1,477 @@
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
+  <FlowDocument.Tag><![CDATA[{
+  "timestamp": "2024-12-15 01:20:14",
+  "files": {
+    "C:\\Users\\yaros\\source\\repos\\graph_explorer\\GraphAnal\\GraphAnal.vcxproj": {
+      "before": "7VnbbttGEM1zgf5BHwjChWwEEnVxHDumGDiSLQiVL7B8eREQrMiVxJrkErtL22rTT+4/dMhdLkmJcqw6tVMjfjCgndkLD2fOmR3+/cubN+bHe9/TbjFlLgnaeqNW1zUc2MRxg2lbj/ikuqt/tH7+yTyj5Hdsc62LJyjy+AWiU8xZW/8UuZ6ja7BKAL9mnIcfDIPZM+wjVvNdmxJGJrxmE99w8C32SIip4bNxPM1o1ustHVbXNLPPsd+jJAq1ARpjr63LDTskmLjTiCIOB2TCGdzLrFo/sL3IwW29i8fR9Mu1G7Sa6QyYU1jKSnxMozgYHyX+M888xCeE+layiGmo38IDBgQeZdO/crhz7GHE8FeOJ71e4oACvfud7adiB0v8J8g9dLRH47bm4UxDRagIWAgACGU+LwRtzyNj5GVhetWRcXIlMsxqvK/VTWNpWEbVb3h+R6gjgi6eaRrpkPSQy/Ui17H+tHHrfWN3PKlOWnuour23966Kdt/Vqw0HTXbGTWTvTHb+UqGazJHLnBPCT5CPWYhsbPUoCmcHAfJMo2iQ3pADDrljIufTTFBPVI+f6EGX4tnjfcWWh/ehRyim6oiJKfZORjJ4JUX4IaFckxC09Y3Nq47koTPEZ1ujY0U3nTCsSaaqhfCimK4ZZa8N0tdxY2Zp65WNzUIyb33Z2EyfdavSbldypFLRU5YqTEnzpcg0F/MQWwdh6Ll2QmILKZ2YJUKXDCe7DNwxRdTFzOI0wqaxPJ5CKmnqghCPYW7dNrZbWcqlo9K5M0MU2RzTIXheBi6wPKxdGF2JPYCevQ5tHdgKdPd8wE0gDb8Zctcz4mGAYEqRfxpy13f/SF6lfD0rzS8KvKLx5wP99UQrqMPzwfZaYrW/HkEXiVlMLqjp4T3HQVyYAmFxKEilroIUJxslvnlpKEweAtthR1Dy42akHDecYSht9bVYriAOyZlAxJbxACKnscR2XbooVzm1qUXglupWjmvxvcs42wSlWnudypaSrAGxkQd61EUcpQKn5PFR0D4FqAU5+AGVutysKDgSJvoB02qY0oh6fUCleVbgtTj1j1F8r1ZJG99MoNp1g6SUFd452livsk1DreN1iB+6HpYDwGfXiAZAw4P4Hm8l/6HYLAyKggdch91BZ4btG1khqZ/K4Yxi4H8bM0ZodnZmXfdPWs39z93DT5e9/c+d05Ph6eBw/9fNFf5b8U2hfCW1VVyjw1UeBTY+hpJXHmlxVNZqxuJzmwM3uMkwGEbj4ZwB4BYswKAsNI1sSG3ZwwGGloWo5vti+/iaIfdeaU4PofYU184MoLzmPfGtp3mTdDgq2d3lSe/9KArs+EGT6IifAuJFPnSpSSHWDzh1Qezt1C29+5QY1CQVVqLwVD+Vw6rYEFF28j+PssMAjT3cOT3uHlwcES/u2UmsyywKFHmDwed4gik0+9Q1s8SgJq0MWQH9SrNYwDSeI6JzN54XZrEX4y+g3gNHtDSQJ/uhUGxC55Yk/YTOh1EsIGw0R6Agoy6xIx8HnI3st281L247jKHtMBoeHQ+qzdpOrTlyRVPVNB5cV8XJAAXTCE3xkKPAQdDLYtyxw7AJPaIlUxob3wHlFnAT7Zf503ADMEG2MtCWFwXtesicaU7m1cUhDhzI2bg3xCa+V4WWRDhzbVZ1avGOydhd0q/Lj6DIcUl+gCUaJkfyx8zvUDhg3pBm17NkdapThfpuMWTWq05SjfnOVerF9KmQDQ+xyMGoi9kNJ2HGGI21GAP6jwv1xr+qt8r0TghTmUWRVYngiVklBjVppdQ9SgkL0C5zgqUIuhTab0Uqj9fjrOCEk6t3lX1qS74dpI38GjC9upUsfjBZ7oY82L7n4gujWi7X80mb76o/JL8ClDd71NcF6x8=",
+      "after": "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"
+    }
+  }
+}]]></FlowDocument.Tag>
+  <Section Margin="0,24" TextAlignment="Center">
+    <Paragraph FontSize="24" FontWeight="Bold" Margin="12,0">
+      <LineBreak />
+      <Span Foreground="Gray">Qt Visual Studio Tools</Span>
+    </Paragraph>
+    <Paragraph FontSize="42" Margin="12,0" FontWeight="Bold">
+      <Span TextDecorations="Underline">Project Format Conversion</Span>
+    </Paragraph>
+    <Paragraph Margin="12,8" FontSize="18">
+      <Span>Report generated on 2024-12-15 01:20:14</Span>
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Files</Span>
+    </Paragraph>
+    <Paragraph Margin="24,12,0,0">
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj]]></Span>
+      <LineBreak />
+      <Hyperlink NavigateUri="file://C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj?diff&amp;before&amp;after">
+                        [Diff before/after]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj?diff&amp;before&amp;current">
+                        [Diff before/current]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj?diff&amp;after&amp;current">
+                        [Diff after/current]
+                    </Hyperlink>
+      <LineBreak />
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Changes</Span>
+    </Paragraph>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Converting custom build steps to Qt/MSBuild items]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>C:\Users\yaros\Documents\c++]]></Span><Span><![CDATA[ librabies\SFML-2.6.2\include</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;C:\Users\yaros\Documents\c++]]></Span><Span><![CDATA[ librabies\SFML-2.6.2\include</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>C:\Users\A\Desktop\SFML-2]]></Span><Span><![CDATA[.6.1\include</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;C:\Users\A\Desktop\SFML-2]]></Span><Span><![CDATA[.6.1\include</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Enabling multi-processor compilation]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Project format version]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Keyword>QtVS_v304</Keyword>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Fallback for QTMSBUILD environment variable]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Default Qt properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt build settings]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Warn if Qt/MSBuild is not found]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </Target>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt property sheet]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt targets]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\yaros\source\repos\graph_explorer\GraphAnal\GraphAnal.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+  </Section>
+  <Section>
+    <Paragraph />
+  </Section>
+</FlowDocument>
+<!--8sjNgIfJOT9LHDyJH2KhPEk4TX4VmSh8b3+te98QKJI=-->
