@@ -1,0 +1,52 @@
+﻿  GraphExplorer.cpp
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(587,84): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(587,63): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(614,69): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(614,48): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(714,24): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(778,22): warning C4244: инициализация: преобразование "T" в "int", возможна потеря данных
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(778,22): warning C4244:         with
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(778,22): warning C4244:         [
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(778,22): warning C4244:             T=float
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(778,22): warning C4244:         ]
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(779,22): warning C4244: инициализация: преобразование "T" в "int", возможна потеря данных
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(779,22): warning C4244:         with
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(779,22): warning C4244:         [
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(779,22): warning C4244:             T=float
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(779,22): warning C4244:         ]
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(783,42): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(783,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,16): warning C4244: инициализация: преобразование "_Ty" в "_Ty1", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,16): warning C4244:         ]
+  (компиляция исходного файла "GraphExplorer.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,16):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(33,35):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept"
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+              C:\Users\A\Desktop\Visual Studio\Graphhh\GraphExplorer\GraphExplorer.cpp(33,31):
+              см. первую ссылку на std::pair<float,float>::pair "Graph::Graph"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,54): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,54): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,54): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,54): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\utility(262,54): warning C4244:         ]
+  (компиляция исходного файла "GraphExplorer.cpp")
+  
+  GraphExplorer.vcxproj -> C:\Users\A\Desktop\Visual Studio\Graphhh\x64\Debug\GraphExplorer.exe

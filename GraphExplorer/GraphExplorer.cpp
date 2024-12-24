@@ -10,6 +10,8 @@
 #include <algorithm>
 #include <fstream>
 #include <sstream>
+#include <queue>
+#include <stack>
 
 const int WINDOW_WIDTH = 800;
 const int WINDOW_HEIGHT = 600;
@@ -58,6 +60,60 @@ public:
 
     const std::pair<float, float>& getVertexPosition(int vertex) const {
         return vertexPositions[vertex];
+    }
+
+
+
+    // BFS (поиск в ширину)
+    std::vector<int> bfs(int start) {
+        std::vector<bool> visited(vertexCount, false);
+        std::vector<int> traversal;
+        std::queue<int> q;
+
+        q.push(start);
+        visited[start] = true;
+
+        while (!q.empty()) {
+            int u = q.front();
+            q.pop();
+            traversal.push_back(u);
+
+            for (const auto& edge : adjacencyList[u]) {
+                if (!visited[edge.to]) {
+                    visited[edge.to] = true;
+                    q.push(edge.to);
+                }
+            }
+        }
+
+        return traversal;
+    }
+
+    // DFS (поиск в глубину)
+    std::vector<int> dfs(int start) {
+        std::vector<bool> visited(vertexCount, false);
+        std::vector<int> traversal;
+        std::stack<int> s;
+
+        s.push(start);
+
+        while (!s.empty()) {
+            int u = s.top();
+            s.pop();
+
+            if (!visited[u]) {
+                visited[u] = true;
+                traversal.push_back(u);
+
+                for (const auto& edge : adjacencyList[u]) {
+                    if (!visited[edge.to]) {
+                        s.push(edge.to);
+                    }
+                }
+            }
+        }
+
+        return traversal;
     }
 
     // Алгоритм Дейкстры для поиска кратчайшего пути
@@ -242,6 +298,8 @@ public:
     }
 };
 
+
+
 class GraphAnalyzerApp {
 private:
     sf::RenderWindow window; // Основное окно
@@ -264,7 +322,7 @@ private:
     std::string inputBuffer;
 
     // Меню для выбора алгоритма
-    enum Algorithm { NONE, DIJKSTRA, PRIM };
+    enum Algorithm { NONE, DIJKSTRA, PRIM, BFS, DFS };
     Algorithm selectedAlgorithm = NONE;
 
     // Окно для ввода начальной и конечной вершины
@@ -307,6 +365,22 @@ public:
         }
     }
 
+    void highlightTraversal(const std::vector<int>& traversalOrder) {
+        for (int vertex : traversalOrder) {
+            vertices[vertex].setFillColor(sf::Color::Cyan);
+            window.clear();
+            render();
+            sf::sleep(sf::milliseconds(500)); // Задержка для визуализации
+        }
+    }
+
+    void openStartVertexInputWindow(const std::string& algorithmType) {
+        selectedAlgorithm = (algorithmType == "BFS") ? Algorithm::BFS : Algorithm::DFS;
+        pathInputWindow.create(sf::VideoMode(300, 200), "Enter Start Vertex");
+        inputPathWindowActive = true;
+        startVertexBuffer.clear();
+    }
+
     void handleMenuEvents(sf::Event& event) {
         if (event.type == sf::Event::MouseButtonPressed) {
             if (event.mouseButton.button == sf::Mouse::Left) {
@@ -341,6 +415,33 @@ public:
                     }
                     catch (const std::ios_base::failure& e) {
                         std::cerr << "Failed to export graph: " << e.what() << std::endl;
+                    }
+                }
+
+                if (event.mouseButton.button == sf::Mouse::Left) {
+                    // Координаты кнопки "BFS"
+                    if (event.mouseButton.x >= 10 && event.mouseButton.x <= 150 &&
+                        event.mouseButton.y >= 10 + 160 && event.mouseButton.y <= 40 + 160) {
+                        openStartVertexInputWindow("BFS");
+                    }
+
+                    // Координаты кнопки "DFS"
+                    if (event.mouseButton.x >= 10 && event.mouseButton.x <= 150 &&
+                        event.mouseButton.y >= 10 + 200 && event.mouseButton.y <= 40 + 200) {
+                        openStartVertexInputWindow("DFS");
+                    }
+                }
+                if (event.mouseButton.button == sf::Mouse::Left) {
+                    // Координаты кнопки "BFS"
+                    if (event.mouseButton.x >= 10 && event.mouseButton.x <= 150 &&
+                        event.mouseButton.y >= 10 + 160 && event.mouseButton.y <= 40 + 160) {
+                        openStartVertexInputWindow("BFS");
+                    }
+
+                    // Координаты кнопки "DFS"
+                    if (event.mouseButton.x >= 10 && event.mouseButton.x <= 150 &&
+                        event.mouseButton.y >= 10 + 200 && event.mouseButton.y <= 40 + 200) {
+                        openStartVertexInputWindow("DFS");
                     }
                 }
 
@@ -383,6 +484,51 @@ public:
         sf::Event event;
         while (pathInputWindow.pollEvent(event)) {
             if (event.type == sf::Event::Closed) {
+                pathInputWindow.close();
+                inputPathWindowActive = false;
+            }
+
+            if (!startVertexBuffer.empty()) {
+                int start = std::stoi(startVertexBuffer);
+                std::vector<int> traversalOrder;
+
+                if (selectedAlgorithm == Algorithm::BFS) {
+                    traversalOrder = graph.bfs(start);
+                    std::cout << "BFS traversal order: ";
+                }
+                else if (selectedAlgorithm == Algorithm::DFS) {
+                    traversalOrder = graph.dfs(start);
+                    std::cout << "DFS traversal order: ";
+                }
+
+                // Выводим последовательность вершин в консоль
+                for (size_t i = 0; i < traversalOrder.size(); ++i) {
+                    std::cout << traversalOrder[i];
+                    if (i != traversalOrder.size() - 1) {
+                        std::cout << " -> ";
+                    }
+                }
+                std::cout << std::endl;
+
+                // Визуализируем обход
+                highlightTraversal(traversalOrder);
+
+                pathInputWindow.close();
+                inputPathWindowActive = false;
+            }
+
+            if (!startVertexBuffer.empty()) {
+                int start = std::stoi(startVertexBuffer);
+                std::vector<int> traversalOrder;
+
+                if (selectedAlgorithm == Algorithm::BFS) {
+                    traversalOrder = graph.bfs(start);
+                }
+                else if (selectedAlgorithm == Algorithm::DFS) {
+                    traversalOrder = graph.dfs(start);
+                }
+
+                highlightTraversal(traversalOrder);
                 pathInputWindow.close();
                 inputPathWindowActive = false;
             }
@@ -461,7 +607,9 @@ public:
                     event.mouseButton.y >= 10 && event.mouseButton.y <= 40) && !(event.mouseButton.x >= 10 && event.mouseButton.x <= 150 &&
                         event.mouseButton.y >= 10 + 40 && event.mouseButton.y <= 40 + 40) && !(event.mouseButton.x >= 10 && event.mouseButton.x <= 150 &&
                             event.mouseButton.y >= 10 + 80 && event.mouseButton.y <= 40 + 80) && !(event.mouseButton.x >= 10 && event.mouseButton.x <= 150 &&
-                                event.mouseButton.y >= 10 + 120 && event.mouseButton.y <= 40 + 120)) {
+                                event.mouseButton.y >= 10 + 120 && event.mouseButton.y <= 40 + 120) && !(event.mouseButton.x >= 10 && event.mouseButton.x <= 150 &&
+                                    event.mouseButton.y >= 10 + 200 && event.mouseButton.y <= 40 + 200) && !(event.mouseButton.x >= 10 && event.mouseButton.x <= 150 &&
+                                        event.mouseButton.y >= 10 + 160 && event.mouseButton.y <= 40 + 160)) {
                     // Добавление новой вершины при клике левой кнопкой мыши
                     addVertex(event.mouseButton.x, event.mouseButton.y);
                 }
@@ -516,6 +664,7 @@ public:
         inputWindow.draw(inputDisplay);
         inputWindow.display();
     }
+
 
     void addVertex(float x, float y) {
         graph.addVertex(x, y); // Добавляем вершину в граф
@@ -644,6 +793,47 @@ public:
         for (const auto& number : vertexNumbers) {
             window.draw(number);
         }
+
+        //// Обновляем метод handleMenuEvents
+        //void handleMenuEvents(sf::Event & event) {
+        //    if (event.type == sf::Event::MouseButtonPressed) {
+        //        if (event.mouseButton.button == sf::Mouse::Left) {
+        //            // Координаты кнопки "BFS"
+        //            if (event.mouseButton.x >= 10 && event.mouseButton.x <= 150 &&
+        //                event.mouseButton.y >= 10 + 160 && event.mouseButton.y <= 40 + 160) {
+        //                openTraversalInputWindow(BFS);
+        //            }
+
+        //            // Координаты кнопки "DFS"
+        //            if (event.mouseButton.x >= 10 && event.mouseButton.x <= 150 &&
+        //                event.mouseButton.y >= 10 + 200 && event.mouseButton.y <= 40 + 200) {
+        //                openTraversalInputWindow(DFS);
+        //            }
+        //        }
+        //    }
+        //}
+
+        // Кнопка "BFS"
+        sf::RectangleShape bfsButton(sf::Vector2f(140, 30));
+        bfsButton.setFillColor(sf::Color(200, 200, 200));
+        bfsButton.setPosition(10, 10 + 160);
+        window.draw(bfsButton);
+
+        sf::Text bfsText("BFS", font, 16);
+        bfsText.setFillColor(sf::Color::Black);
+        bfsText.setPosition(25, 15 + 160);
+        window.draw(bfsText);
+
+        // Кнопка "DFS"
+        sf::RectangleShape dfsButton(sf::Vector2f(140, 30));
+        dfsButton.setFillColor(sf::Color(200, 200, 200));
+        dfsButton.setPosition(10, 10 + 200);
+        window.draw(dfsButton);
+
+        sf::Text dfsText("DFS", font, 16);
+        dfsText.setFillColor(sf::Color::Black);
+        dfsText.setPosition(25, 15 + 200);
+        window.draw(dfsText);
 
         // Кнопка "Dijkstra"
         sf::RectangleShape dijkstraButton(sf::Vector2f(140, 30));
